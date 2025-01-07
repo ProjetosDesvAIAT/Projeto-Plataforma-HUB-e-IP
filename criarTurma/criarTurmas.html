@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Alunos à Turma</title>
+    <link rel="stylesheet" href="criarTurmas.css.css">
+</head>
+
+<body>
+    <main class="content">
+        <header class="header">
+            <h1>Adicionar Alunos à Turma</h1>
+        </header>
+
+        <section class="main-section">
+            <div class="card">
+                <h3>Turma: <span id="turma-nome">Nome da Turma</span></h3>
+                <form id="alunos-form">
+                    <div id="alunos-container">
+                        <div class="aluno-row">
+                            <input type="text" class="aluno-input" placeholder="Nome do Aluno" required>
+                            <button type="button" class="add-button">+</button>
+                            <button type="button" class="x-button remove-last-button">x</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="save-button">Salvar Turma</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="criarTurmas.js"></script>
+</body>
+
+</html>
