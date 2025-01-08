@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alunos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="imagens/logo.png" alt="Logo da Empresa" class="logo">
+        </div>
+        <div class="user-info">
+            <img src="imagens/perfil.png" alt="Foto do Usuário" class="user-photo">
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        <h2>Selecione a Turma e a Data</h2>
+        <div class="form-group">
+            <label for="turma-select">Turma:</label>
+            <select id="turma-select" onchange="mostrarAlunosSelecionados()">
+                <option value="" disabled selected>Escolha uma turma</option>
+            </select>
+
+            <label for="data-chamada">Data:</label>
+            <input type="date" id="data-chamada" required>
+        </div>
+
+        <h2 id="turma-selecionada" class="hidden">Selecione uma turma</h2>
+        <div id="alunos-container" class="hidden">
+            <table id="alunos-table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Presença</th>
+                        <th>Nota</th>
+                    </tr>
+                </thead>
+                <tbody id="alunos-list"></tbody>
+            </table>
+
+            <button id="salvar-btn" class="hidden" onclick="salvarDados()">Salvar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

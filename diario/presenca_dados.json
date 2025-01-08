@@ -1,0 +1,232 @@
+[
+  {
+    "turma": "Turma Gama",
+    "data": "2025-01-08",
+    "alunos": [
+      {
+        "nome": "Karina Rocha",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Leonardo Antunes",
+        "presenca": "Presente",
+        "nota": "3"
+      },
+      {
+        "nome": "Maria Fernanda Oliveira",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Nicolas Ramos",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Olivia Nunes",
+        "presenca": "Ausente",
+        "nota": "0"
+      }
+    ]
+  },
+  {
+    "turma": "Turma Alfa",
+    "data": "2025-01-08",
+    "alunos": [
+      {
+        "nome": "Alice Santos",
+        "presenca": "Presente",
+        "nota": "3"
+      },
+      {
+        "nome": "Bruno Ferreira",
+        "presenca": "Presente",
+        "nota": "5"
+      },
+      {
+        "nome": "Clara Almeida",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Diego Costa",
+        "presenca": "Presente",
+        "nota": "3"
+      },
+      {
+        "nome": "Eduarda Lima",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Alice Santos",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Bruno Ferreira",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Clara Almeida",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Diego Costa",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Eduarda Lima",
+        "presenca": "Ausente",
+        "nota": "0"
+      }
+    ]
+  },
+  {
+    "turma": "Turma Alfa",
+    "data": "2025-01-09",
+    "alunos": [
+      {
+        "nome": "Alice Santos",
+        "presenca": "Presente",
+        "nota": "3"
+      },
+      {
+        "nome": "Bruno Ferreira",
+        "presenca": "Presente",
+        "nota": "5"
+      },
+      {
+        "nome": "Clara Almeida",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Diego Costa",
+        "presenca": "Presente",
+        "nota": "3"
+      },
+      {
+        "nome": "Eduarda Lima",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Alice Santos",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Bruno Ferreira",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Clara Almeida",
+        "presenca": "Presente",
+        "nota": "3"
+      },
+      {
+        "nome": "Diego Costa",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Eduarda Lima",
+        "presenca": "Presente",
+        "nota": "5"
+      }
+    ]
+  },
+  {
+    "turma": "Turma Delta",
+    "data": "2025-01-10",
+    "alunos": [
+      {
+        "nome": "Paulo Mendes",
+        "presenca": "Presente",
+        "nota": "3"
+      },
+      {
+        "nome": "Quésia Figueira",
+        "presenca": "Presente",
+        "nota": "4"
+      },
+      {
+        "nome": "Rafael Cunha",
+        "presenca": "Presente",
+        "nota": "2"
+      },
+      {
+        "nome": "Sabrina Barbosa",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Thiago Ribeiro",
+        "presenca": "Ausente",
+        "nota": "0"
+      }
+    ]
+  },
+  {
+    "turma": "Turma Alfa",
+    "data": "2025-01-08",
+    "alunos": [
+      {
+        "nome": "Alice Santos",
+        "presenca": "Presente",
+        "nota": "1"
+      },
+      {
+        "nome": "Bruno Ferreira",
+        "presenca": "Presente",
+        "nota": "2"
+      },
+      {
+        "nome": "Clara Almeida",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Diego Costa",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Eduarda Lima",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Alice Santos",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Bruno Ferreira",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Clara Almeida",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Diego Costa",
+        "presenca": "Ausente",
+        "nota": "0"
+      },
+      {
+        "nome": "Eduarda Lima",
+        "presenca": "Ausente",
+        "nota": "0"
+      }
+    ]
+  }
+]
