@@ -1,0 +1,164 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;  /* Permite scroll no body */
+}
+
+.container {
+    margin: 100px auto;  /* Compensa a altura do cabeçalho */
+    min-height: calc(100vh - 100px);  /* Altura mínima da tela menos a altura do cabeçalho */
+    overflow-y: visible;  /* Scroll do body controla o conteúdo */
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 15px 30px;  /* Padding inferior suficiente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 800px;  /* Evita que a largura seja muito grande */
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #005b9f;
+}
+
+#turma-select {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #005b9f;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+}
+
+#alunos-container {
+    margin-top: 20px;
+}
+
+#alunos-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#alunos-table th,
+#alunos-table td {
+    border: 1px solid #b3d9ff;
+    padding: 15px;
+    text-align: center;
+}
+
+#alunos-table th {
+    background-color: #b3d9ff;
+    color: #003366;
+}
+
+#alunos-table tr:nth-child(even) {
+    background-color: #f0f8ff;
+}
+
+#salvar-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #005b9f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#salvar-btn:hover {
+    background-color: #003f6d;
+}
+
+.hidden {
+    display: none;
+}
+
+#exportar-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #005b9f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#exportar-btn:hover {
+    background-color: #003f6d;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#turma-select,
+#data-chamada {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #005b9f;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+}
+
+/* Estilo do Cabeçalho */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005b9f;
+    padding: 20px 30px;
+    color: white;
+    position: fixed;  /* Fixa no topo */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    height: 80px;
+}
+
+/* Logo e Foto do Usuário */
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.user-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* Ajusta a largura dos elementos de forma responsiva */
+@media (max-width: 768px) {
+    .header {
+        flex-wrap: wrap;
+        padding: 15px;
+        height: auto;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .user-photo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
