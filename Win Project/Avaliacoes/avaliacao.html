@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Avaliações</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <h1>Hub Tech Labs</h1>
+            </div>
+        </header>
+
+        <div class="card">
+            <h2>Selecione a Turma e Crie Avaliações</h2>
+            <form id="form-avaliacao">
+                <div class="form-group">
+                    <label for="turma">Turma:</label>
+                    <select id="turma" required>
+                        <option value="">Escolha uma turma</option>
+                        <option value="Turma A">Turma A</option>
+                        <option value="Turma B">Turma B</option>
+                        <option value="Turma C">Turma C</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="nome-avaliacao">Avaliação:</label>
+                    <input type="text" id="nome-avaliacao" placeholder="Digite o nome da avaliação" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="conteudo-avaliacao">Conteúdo:</label>
+                    <textarea id="conteudo-avaliacao" placeholder="Descreva o conteúdo aplicado na avaliação" rows="4" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="data-avaliacao">Data:</label>
+                    <input type="date" id="data-avaliacao" required>
+                </div>
+
+                <button type="submit" class="primary-button">Criar Avaliação</button>
+                <button type="button" class="secondary-button" id="btn-relatorio">Gerar Relatório</button>
+            </form>
+        </div>
+
+
+        <div id="relatorio-container" class="hidden">
+            <h3>Relatório de Avaliações</h3>
+            <ul id="lista-avaliacoes"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
